@@ -1,0 +1,21 @@
+.playlist {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 240px;
+
+  & > * {
+    border-radius: 4px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: calc(405px + 4px * 2);
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    overflow-y: auto;
+    background: #2a2a3e;
+  }
+}

@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka,
+    'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', Meiryo, "Helvetica Neue", sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #9391af;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  // h1 {
+  //   font-style: italic;
+  //   font-size: 3em;
+  // }
+}
+
+.title_music{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+
+.footer{
+  font-size: 24px;
+  bottom: 0;
+  position: absolute;
+}
+.footer span{
+  color: red;
+}
+
+.logo{
+  width: 100px;
+}
+
+.container_logo_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
